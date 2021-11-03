@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 60px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    background: #5CEC62;
+    background: -webkit-linear-gradient(top left, #5CEC62, #6884ED);
+    background: -moz-linear-gradient(top left, #5CEC62, #6884ED);
+    background: linear-gradient(to bottom right, #5CEC62, #6884ED);
+    color: #fff;
+}
+
+.countdown-info {
+    margin-top: 80px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-item {
+    padding: 0 30px;
+}
+
+.countdown-item__big {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.countdown-item__text {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
